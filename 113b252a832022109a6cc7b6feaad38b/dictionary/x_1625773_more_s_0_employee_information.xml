@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a8e03dee832022109a6cc7b6feaad31d" label="Employee Information" max_length="40" name="x_1625773_more_s_0_employee_information" type="collection">
+        <element choice="1" default="IT" label="Domain" max_length="40" name="domain" type="string_full_utf8">
+            <choice>
+                <element inactive_on_update="false" label="Sales" sequence="3" value="Sales"/>
+                <element inactive_on_update="false" label="IT" sequence="0" value="IT"/>
+                <element inactive_on_update="false" label="Marketing" sequence="4" value="Marketing"/>
+                <element inactive_on_update="false" label="Communication" sequence="1" value="Communication"/>
+                <element inactive_on_update="false" label="Insurances" sequence="2" value="Insurances"/>
+            </choice>
+        </element>
+        <element default="Samir" label="Employeer Name" max_length="40" name="employeer_name" type="string"/>
+        <element choice="3" display="true" label="Employement Type" max_length="40" name="employement_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Consultant" sequence="4" value="consultant"/>
+                <element inactive_on_update="false" label="Full Time" sequence="0" value="full_time"/>
+                <element inactive_on_update="false" label="Part Time" sequence="1" value="part_time"/>
+                <element inactive_on_update="false" label="Associate" sequence="2" value="associate"/>
+                <element inactive_on_update="false" label="Client" sequence="3" value="client"/>
+            </choice>
+        </element>
+    </element>
+</database>

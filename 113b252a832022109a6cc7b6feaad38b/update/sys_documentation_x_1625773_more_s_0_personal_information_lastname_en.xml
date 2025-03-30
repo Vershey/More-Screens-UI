@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="lastname" label="LastName" language="en" table="x_1625773_more_s_0_personal_information">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>lastname</element>
+            <help/>
+            <hint/>
+            <label>LastName</label>
+            <language>en</language>
+            <name>x_1625773_more_s_0_personal_information</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-30 19:45:22</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>LastName</sys_name>
+            <sys_package display_value="More screens UI" source="x_1625773_more_s_0">113b252a832022109a6cc7b6feaad38b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="More screens UI">113b252a832022109a6cc7b6feaad38b</sys_scope>
+            <sys_update_name>sys_documentation_x_1625773_more_s_0_personal_information_lastname_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-30 19:45:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

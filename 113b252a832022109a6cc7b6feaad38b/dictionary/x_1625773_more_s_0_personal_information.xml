@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a8cb216a832022109a6cc7b6feaad34e" label="Personal Information" max_length="40" name="x_1625773_more_s_0_personal_information" type="collection">
+        <element choice="1" display="true" label="Gender" max_length="255" name="gender" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+            </choice>
+        </element>
+        <element default="+1(494-900-6789)" label="Phone Number" max_length="255" name="phone_number" type="phone_number_e164"/>
+        <element default="Amir" label="FirstName" max_length="40" name="firstname" type="string"/>
+        <element default="Narayanan" label="LastName" max_length="40" name="lastname" type="string_full_utf8"/>
+        <element default="4925 Green Point SE Marieatta" label="Line 1,Line2" max_length="65536" name="line_1_line2" type="html"/>
+        <element default="1999-07-16" label="DOB" max_length="255" name="dob" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b873b1e2836022109a6cc7b6feaad34a" label="Loan Application" max_length="40" name="x_1625773_more_s_0_loan_application" type="collection">
+        <element default="Education" display="true" label="Loan Option" max_length="40" name="loan_option" type="string"/>
+        <element choice="3" label="Loan Type" max_length="40" name="loan_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Housing" sequence="3" value="housing"/>
+                <element inactive_on_update="false" label="Education" sequence="0" value="education"/>
+                <element inactive_on_update="false" label="Personal" sequence="1" value="personal"/>
+                <element inactive_on_update="false" label="Buisness" sequence="2" value="buisness"/>
+            </choice>
+        </element>
+    </element>
+</database>
